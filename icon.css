@@ -1,0 +1,21 @@
+body {
+  background-color: beige;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: goldenrod;
+}
+
+h3 {
+  color: gold;
+}
+
+

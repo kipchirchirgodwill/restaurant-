@@ -4,180 +4,188 @@
   <meta charset="UTF-8">
   <title>Karibu Restaurant Menu</title>
   <style>
-    header{
+    header {
       background-color: gold;
       color: black;
       text-align: center;
       padding: 0%;
     }
-   body{
-    background-color:white;
-    color:black;
-    text-align: center;
-    padding: auto;
-    margin: auto;
-   }
-   table{
-    width: 10;
-    margin: auto;
-    border-collapse: 3;
-   }
-   form{
-    background-color: gold;
-    width: auto;
-
-   }
-   button{
-    width: 100px;;
-
-   }
-    
+    body {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: auto;
+      margin: auto;
+    }
+    table {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+    }
+    img {
+      width: 300px; 
+      height: auto; 
+    }
+    .description {
+      text-align: center; 
+      padding: 10px 0; 
+    }
+    form {
+      background-color: gold;
+      width: auto;
+    }
+    button {
+      width: 100px;
+    }
   </style>
-  
 </head>
 <body>
   <header>
-  <h1> Karibu Restaurant Menu</h1>
-  <p style="text-align:center;">Where Kenyan warmth meets Chinese flavor</p>
+    <h1>Karibu Restaurant Menu</h1>
+    <p style="text-align:center;">Where Kenyan warmth meets Chinese flavor</p>
   </header>
 
   <div class="section">
     <table border="1">
       <tr>
-      <th>starters</th>
-      <th>Description</th>
+        <th>Starters</th>
+        <th>Description</th>
       </tr>
-    <tr>
-      <td>Samosa Trio</td>
-      <td> Crispy pastry stuffed with spiced beef, chicken, or vegetables.</td>
-    </tr>
-    <tr>
-      <td>Spring Rolls</td>
-      <td> Golden rolls filled with cabbage, carrots, and glass noodles.</td>
-    </tr>
-    <tr>
-      <td>Mandazi Basket</td>
-      <td>Sweet, fluffy Kenyan doughnuts served warm.</td>
-    </tr>
+      <tr>
+        <td><img src="samosa.jpg" alt="Samosa Trio"></td>
+        <td class="description">Samosa Trio: Crispy pastry stuffed with spiced beef, chicken, or vegetables.</td>
+      </tr>
+      <tr>
+        <td><img src="spring.webp" alt="Spring Rolls"></td>
+        <td class="description">Spring Rolls: Golden rolls filled with cabbage, carrots, and glass noodles.</td>
+      </tr>
+      <tr>
+        <td><img src="mandazi.jpg" alt="Mandazi Basket"></td>
+        <td class="description">Mandazi Basket: Sweet, fluffy Kenyan doughnuts served warm.</td>
+      </tr>
     </table><br>
   </div>
+
   <div>
-  <table border="1">
-    <tr>
-      <th>soups</th>
-      <th>description</th>
-    </tr>
-    <tr>
-      <td>Hot & Sour Soup</td>
-      <td>Tangy broth with tofu, mushrooms, and bamboo shoots.</td>
-    </tr>
-    <tr>
-      <td>Chicken Clear Soup</td>
-      <td>Light broth with chicken, ginger, and scallions</td>
-    </tr>
-    <tr>
-      <td>Karibu Vegetable Soup</td>
-      <td>Local greens simmered with herbs and spices</td>
-    </tr><br>
-    </table><br>
-  </div>
-
-  <table border="1">
-  <tr>
-    <th>Main Courses</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>Nyama Choma Platter</td>
-    <td> Charcoal-grilled goat or beef, served with ugali and kachumbari</td>
-  </tr>
-  <tr>
-    <td>Kung Pao Chicken </td>
-    <td>Stir-fried chicken with peanuts, chili, and vegetables</td>
-  </tr>
-  <tr>
-    <td>Sweet & Sour Pork</td>
-    <td> Crispy pork tossed in tangy pineapple sauce</td>
-  </tr>
-  <tr>
-    <td>Tilapia Fry</td>
-    <td> Whole tilapia deep-fried, served with sukuma wiki and ugali</td>
-  </tr>
-  <tr>
-    <td>Vegetable Chow Mein</td>
-    <td>Stir-fried noodles with mixed vegetables</td>
-  </tr>
-  </table><br>
-  <table border="1">
-    <tr>
-      <th>Chef’s Specials</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>Ugali & Stir-Fry Fusion</td>
-      <td>Ugali cubes wok-tossed with soy sauce and vegetables</td>
-    </tr>
-    <tr>
-      <td>Chapati Wraps</td>
-      <td> Soft chapati filled with stir-fried beef and peppers</td>
-    </tr>
-    <tr>
-      <td>Karibu Fried Rice</td>
-      <td>Rice with peas, carrots, eggs, and a touch of Kenyan spice</td>
-    </tr>
+    <table border="1">
+      <tr>
+        <th>Soups</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td><img src="hot soup.jpg" alt="Hot & Sour Soup"></td>
+        <td class="description">Hot & Sour Soup: Tangy broth with tofu, mushrooms, and bamboo shoots.</td>
+      </tr>
+      <tr>
+        <td><img src="chiken.jpg" alt="Chicken Clear Soup"></td>
+        <td class="description">Chicken Clear Soup: Light broth with chicken, ginger, and scallions.</td>
+      </tr>
+      <tr>
+        <td><img src="vegetables.jpg" alt="Karibu Vegetable Soup"></td>
+        <td class="description">Karibu Vegetable Soup: Local greens simmered with herbs and spices.</td>
+      </tr>
     </table><br>
   </div>
 
   <div class="section">
     <table border="1">
-<tr>
-  <th>Desserts</th>
-  <th>Description</th>
-</tr>
-<tr>
-  <td>Chinese Almond Cookies</td>
-  <td>Crunchy, nutty treats</td>
-</tr>
-<tr>
-  <td>Mango Pudding</td>
-  <td>Smooth pudding made with fresh Kenyan mangoes</td>
-</tr>
-<tr>
-  <td>Coconut Mahamri</td>
-  <td>Sweet Kenyan dough infused with coconut</td>
-</tr> 
-     </table><br>
+      <tr>
+        <th>Main Courses</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td><img src="nyama.jpg" alt="Nyama Choma Platter"></td>
+        <td class="description">Nyama Choma Platter: Charcoal-grilled goat or beef, served with ugali and kachumbari.</td>
+      </tr>
+      <tr>
+        <td><img src="fry chiken.jpg" alt="Kung Pao Chicken"></td>
+        <td class="description">Kung Pao Chicken: Stir-fried chicken with peanuts, chili, and vegetables.</td>
+      </tr>
+      <tr>
+        <td><img src="pork.jpg" alt="Sweet & Sour Pork"></td>
+        <td class="description">Sweet & Sour Pork: Crispy pork tossed in tangy pineapple sauce.</td>
+      </tr>
+      <tr>
+        <td><img src="tilapia.jpg" alt="Tilapia Fry"></td>
+        <td class="description">Tilapia Fry: Whole tilapia deep-fried, served with sukuma wiki and ugali.</td>
+      </tr>
+      <tr>
+        <td><img src="vege chow.jpg" alt="Vegetable Chow Mein"></td>
+        <td class="description">Vegetable Chow Mein: Stir-fried noodles with mixed vegetables.</td>
+      </tr>
+    </table><br>
   </div>
 
   <div class="section">
     <table border="1">
-    <tr>
-      <th>Drinks</th>
-    </tr>
-    <tr>
       <tr>
-      <td>Fresh sugarcane juice</td>
-      </tr> 
+        <th>Chef’s Specials</th>
+        <th>Description</th>
+      </tr>
       <tr>
-      <td>Masala chai (Kenyan spiced tea)</td>
+        <td><img src="ug stir.jpg" alt="Ugali & Stir-Fry Fusion"></td>
+        <td class="description">Ugali & Stir-Fry Fusion: Ugali cubes wok-tossed with soy sauce and vegetables.</td>
       </tr>
-       <tr>
-      <td>Chinese green tea</td>
+      <tr>
+        <td><img src="chapati.jpg" alt="Chapati Wraps"></td>
+        <td class="description">Chapati Wraps: Soft chapati filled with stir-fried beef and peppers.</td>
       </tr>
-       <tr>
-      <td>Fresh tropical juices (passion, mango, pineapple)</td>
+      <tr>
+        <td><img src="rice.jpg" alt="Karibu Fried Rice"></td>
+        <td class="description">Karibu Fried Rice: Rice with peas, carrots, eggs, and a touch of Kenyan spice.</td>
       </tr>
-    </tr>
-  
     </table><br>
   </div>
-  <h2>Make odders</h2>
+
+  <div class="section">
+    <table border="1">
+      <tr>
+        <th>Desserts</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td><img src="cookie.jpg" alt="Chinese Almond Cookies"></td>
+        <td class="description">Chinese Almond Cookies: Crunchy, nutty treats.</td>
+      </tr>
+      <tr>
+        <td><img src="mango pudding.jpg" alt="Mango Pudding"></td>
+        <td class="description">Mango Pudding: Smooth pudding made with fresh Kenyan mangoes.</td>
+      </tr>
+      <tr>
+        <td><img src="mahamri.jpg" alt="Coconut Mahamri"></td>
+        <td class="description">Coconut Mahamri: Sweet Kenyan dough infused with coconut.</td>
+      </tr>
+    </table><br>
+  </div>
+
+  <div class="section">
+    <table border="1">
+      <tr>
+        <th>Drinks</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td><img src="sugarcane juice.jpg" alt="Fresh Sugarcane Juice"></td>
+        <td class="description">Fresh Sugarcane Juice: Refreshingly sweet juice from fresh sugarcane.</td>
+      </tr>
+      <tr>
+        <td><img src="masala chai.jpg" alt="Masala Chai"></td>
+        <td class="description">Masala Chai: Kenyan spiced tea brewed to perfection.</td>
+      </tr>
+      <tr>
+        <td><img src="tropical juice.jpg" alt="Fresh Tropical Juices"></td>
+        <td class="description">Fresh Tropical Juices: Assorted tropical juices (passion, mango, pineapple).</td>
+      </tr>
+    </table><br>
+  </div>
+
+  <h2>Make Orders</h2>
   <form action="">
     <label for="Name">Name</label><br>
-    <input type="Name" name="" id="Name"><br>
+    <input type="text" name="name" id="Name"><br>
     <label for="Email">Email</label><br>
-    <input type="Email" name="" id="Email"><br>
-    <button>submit</button><br>
+    <input type="email" name="email" id="Email"><br>
+    <button type="submit">Submit</button><br>
   </form><br>
 </body>
 </html>
